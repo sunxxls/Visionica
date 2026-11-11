@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_bottom_sheet">
+
+    <!-- Handle -->
+    <View
+        android:layout_width="36dp"
+        android:layout_height="4dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bg_handle"/>
+
+    <!-- Ícono de cara detectada -->
+    <FrameLayout
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="14dp">
+
+        <View
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="@drawable/bg_icon_container"/>
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_face_recognition"
+            app:tint="#8B5394"/>
+
+    </FrameLayout>
+
+    <!-- Nombre del estudiante -->
+    <TextView
+        android:id="@+id/tvStudentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estudiante detectado"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#1A1A2E"
+        android:gravity="center"
+        android:layout_marginBottom="4dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"/>
+
+    <!-- Subtítulo -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecciona el estado de asistencia"
+        android:textSize="13sp"
+        android:textColor="#9E9EBA"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"/>
+
+    <!-- Opciones de estado -->
+    <RadioGroup
+        android:id="@+id/rgStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp">
+
+        <!-- Presente -->
+        <RadioButton
+            android:id="@+id/rbPresent"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="✓  Presente"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_status_present"
+            android:buttonTint="#2E7D32"/>
+
+        <!-- Atraso -->
+        <RadioButton
+            android:id="@+id/rbLate"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="⚠  Atraso"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#E65100"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:background="@drawable/bg_status_late"
+            android:buttonTint="#F57C00"/>
+
+    </RadioGroup>
+
+    <!-- Divisor -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EEE8F4"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <!-- Botones — sin MaterialButton, usan Button + drawable propio -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="14dp"
+        android:paddingBottom="28dp"
+        android:gravity="end">
+
+        <!-- Cancelar -->
+        <Button
+            android:id="@+id/btnCancelStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:text="Cancelar"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:background="@drawable/bg_btn_cancel"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:stateListAnimator="@null"/>
+
+        <!-- Confirmar -->
+        <Button
+            android:id="@+id/btnConfirmStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_marginStart="10dp"
+            android:text="Confirmar"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:background="@drawable/bg_btn_confirm"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:stateListAnimator="@null"/>
+
+    </LinearLayout>
+
+</LinearLayout>

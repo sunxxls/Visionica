@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "899362913503",
+    "project_id": "visionica-74ea1",
+    "storage_bucket": "visionica-74ea1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899362913503:android:cab509677eddf7ea537d6a",
+        "android_client_info": {
+          "package_name": "com.example.visionica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899362913503-5o10vofm6f74m8ne3tffm5jplhi632a9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.visionica",
+            "certificate_hash": "9c32408ca277e5d2e72f2545968709d1aa80d306"
+          }
+        },
+        {
+          "client_id": "899362913503-rfri77chg18tal4k7s15peq5adsa9dgm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.visionica",
+            "certificate_hash": "519bd5ee5cbc09c47df27595389072bb796fef02"
+          }
+        },
+        {
+          "client_id": "899362913503-2u2dqdrlc34e77jkot6teoht6mmenobo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3tqZSbp8l-65vrVTcR9jZLRO8dl1tzCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899362913503-2u2dqdrlc34e77jkot6teoht6mmenobo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

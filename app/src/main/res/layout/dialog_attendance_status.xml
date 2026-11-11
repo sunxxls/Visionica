@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvStudentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estudiante: María García"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecciona el estado de asistencia:"
+        android:textSize="14sp"
+        android:textColor="@color/text_secondary"
+        android:layout_marginBottom="12dp"/>
+
+    <RadioGroup
+        android:id="@+id/rgStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp">
+
+        <RadioButton
+            android:id="@+id/rbPresent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✓ Presente (P)"
+            android:textSize="16sp"
+            android:padding="12dp"/>
+
+        <RadioButton
+            android:id="@+id/rbLate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⚠ Atraso (A)"
+            android:textSize="16sp"
+            android:padding="12dp"/>
+
+        <RadioButton
+            android:id="@+id/rbLicense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📄 Licencia (L)"
+            android:textSize="16sp"
+            android:padding="12dp"/>
+
+        <RadioButton
+            android:id="@+id/rbAbsent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✗ Falta (F)"
+            android:textSize="16sp"
+            android:padding="12dp"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btnCancelStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancelar"
+            android:textColor="@color/text_secondary"
+            style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+        <Button
+            android:id="@+id/btnConfirmStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirmar"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="@color/primary_purple"/>
+
+    </LinearLayout>
+
+</LinearLayout>

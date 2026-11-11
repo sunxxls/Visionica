@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_view_details"
+        android:title="Ver detalles" />
+    <item
+        android:id="@+id/menu_copy_code"
+        android:title="Copiar código" />
+    <item
+        android:id="@+id/menu_archive"
+        android:title="Archivar" />
+    <item
+        android:id="@+id/menu_delete"
+        android:title="Eliminar" />
+
+    <item
+        android:id="@+id/menu_unarchive"
+        android:title="Desarchivar clase"
+        android:icon="@android:drawable/ic_menu_revert" />
+</menu>

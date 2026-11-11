@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">VISIÓNICA</string>
+    <string name="app_subtitle">Control de Asistencia Inteligente</string>
+    <string name="app_logo">Logo de VISIÓNICA</string>
+    <string name="version">Versión 1.0</string>
+    <string name="instituto_name">Instituto Tecnológico Ayacucho</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_description">Sistema de registro y seguimiento de asistencia con reconocimiento facial</string>
+    <string name="continue_with_google">Continuar con Google</string>
+    <string name="google_icon">Ícono de Google</string>
+    <string name="or">o</string>
+    <string name="register">Registrarse</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="terms_and_conditions">Al continuar, aceptas nuestros Términos y Condiciones</string>
+
+    <!-- Login Screen -->
+    <string name="welcome_back">¡Bienvenido!</string>
+    <string name="login_subtitle">Inicia sesión para continuar</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="or_continue_with">O continúa con</string>
+    <string name="dont_have_account">¿No tienes cuenta?</string>
+    <string name="register_now">Regístrate</string>
+    <string name="back">Atrás</string>
+
+    <!-- Register Screen -->
+    <string name="create_account">Crear Cuenta</string>
+    <string name="register_subtitle">Completa tus datos para comenzar</string>
+    <string name="full_name">Nombre completo</string>
+    <string name="confirm_password">Confirmar contraseña</string>
+    <string name="password_requirements">Mínimo 8 caracteres, incluye mayúsculas, minúsculas, números y símbolos (@#$%^&amp;+=!)</string>
+    <string name="password_strength">Fortaleza de contraseña</string>
+    <string name="already_have_account">¿Ya tienes cuenta?</string>
+    <string name="login_now">Inicia sesión</string>
+
+    <!-- Common -->
+    <string name="loading">Cargando…</string>
+    <string name="error">Error</string>
+    <string name="success">Éxito</string>
+    <string name="cancel">Cancelar</string>
+    <string name="accept">Aceptar</string>
+    <string name="continue_text">Continuar</string>
+
+    <!-- ========================================== -->
+    <!-- DASHBOARD / MAIN ACTIVITY -->
+    <!-- ========================================== -->
+    <string name="logout">Cerrar sesión</string>
+    <string name="good_morning">¡Buenos días!</string>
+    <string name="good_afternoon">¡Buenas tardes!</string>
+    <string name="good_evening">¡Buenas noches!</string>
+    <string name="menu_title">Menú Principal</string>
+    <string name="total_students">Estudiantes</string>
+    <string name="total_courses">Cursos</string>
+    <string name="today_attendance">Hoy</string>
+
+
+    <!-- ========================================== -->
+    <!-- MENU ITEMS -->
+    <!-- ========================================== -->
+    <string name="menu_attendance">Registrar\nAsistencia</string>
+    <string name="menu_students">Gestión de\nEstudiantes</string>
+    <string name="menu_courses">Mis\nCursos</string>
+    <string name="menu_reports">Ver\nReportes</string>
+    <string name="menu_history">Historial</string>
+    <string name="menu_settings">Configuración</string>
+
+
+    <!-- ========================================== -->
+    <!-- DIALOGS -->
+    <!-- ========================================== -->
+    <string name="logout_title">Cerrar Sesión</string>
+    <string name="logout_message">¿Estás seguro que deseas cerrar sesión?</string>
+    <string name="exit_title">Salir de la aplicación</string>
+    <string name="exit_message">¿Deseas salir de VISIÓNICA?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+
+
+
+    <!-- ========================================== -->
+    <!-- PLACEHOLDER ACTIVITIES -->
+    <!-- ========================================== -->
+    <string name="under_construction">En construcción</string>
+    <string name="module_coming_soon">Esta funcionalidad estará disponible próximamente</string>
+
+
+    <!-- ========================================== -->
+    <!-- TITLES FOR ACTIVITIES -->
+    <!-- ========================================== -->
+    <string name="title_attendance">Registrar Asistencia</string>
+    <string name="title_students">Gestión de Estudiantes</string>
+    <string name="title_courses">Mis Cursos</string>
+    <string name="title_reports">Reportes</string>
+    <string name="title_history">Historial</string>
+    <string name="title_settings">Configuración</string>
+
+
+    <!-- ========================================== -->
+    <!-- COMMON STRINGS -->
+    <!-- ========================================== -->
+
+    <string name="save">Guardar</string>
+    <string name="delete">Eliminar</string>
+    <string name="edit">Editar</string>
+    <string name="add">Agregar</string>
+    <string name="search">Buscar</string>
+
+
+    <!-- Dashboard/Main -->
+    <string name="menu">Menú</string>
+    <string name="classes">Clases</string>
+    <string name="calendar">Calendario</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="offline_files">Pendientes</string>
+    <string name="archived_classes">Clases archivadas</string>
+    <string name="settings">Configuración</string>
+    <string name="help">Ayuda</string>
+    <string name="navigation_drawer_open">Abrir menú</string>
+    <string name="navigation_drawer_close">Cerrar menú</string>
+
+    <!-- Empty State -->
+    <string name="no_classes">Sin clases</string>
+    <string name="no_classes_yet">Aún no tienes clases</string>
+    <string name="create_or_join_class">Crea una clase o únete con un código</string>
+
+    <!-- Class Actions -->
+    <string name="add_class">Agregar clase</string>
+    <string name="join_class">Unirse a clase</string>
+    <string name="create_class">Crear clase</string>
+    <string name="select_option">Selecciona una opción</string>
+
+    <!-- Create Class Dialog -->
+    <string name="complete_class_info">Completa la información de la clase</string>
+    <string name="class_name_required">Nombre de la clase (requerido)</string>
+    <string name="section_optional">Sección (opcional)</string>
+    <string name="room_optional">Aula (opcional)</string>
+    <string name="subject_optional">Asignatura (opcional)</string>
+    <string name="create">Crear</string>
+
+    <!-- Join Class Dialog -->
+    <string name="ask_teacher_for_code">Solicita el código al profesor</string>
+    <string name="class_code">Código de clase</string>
+    <string name="code_format_example">Ejemplo: AbC123x</string>
+    <string name="join_class_info">El código de clase tiene 7 caracteres con letras y números</string>
+    <string name="join">Unirse</string>
+
+    <!-- Class Card -->
+    <string name="options">Opciones</string>
+    <string name="students">estudiantes</string>
+    <string name="teacher">Profesor</string>
+
+    <!-- Class Options Menu -->
+    <string name="view_details">Ver detalles</string>
+    <string name="copy_code">Copiar código</string>
+    <string name="archive">Archivar</string>
+
+
+    <!-- Messages -->
+    <string name="class_created">Clase creada</string>
+    <string name="class_joined">Te uniste a la clase</string>
+    <string name="invalid_code">Código de clase inválido</string>
+    <string name="already_in_class">Ya estás en esta clase</string>
+    <string name="error_creating_class">Error al crear la clase</string>
+    <string name="error_joining_class">Error al unirse a la clase</string>
+    <string name="error_loading_classes">Error al cargar las clases</string>
+    <string name="class_archived">Clase archivada</string>
+    <string name="class_deleted">Clase eliminada</string>
+    <string name="code_copied">Código copiado</string>
+    <string name="session_closed">Sesión cerrada</string>
+
+    <!-- Face Recognition -->
+    <string name="face_registration">Registro facial</string>
+    <string name="face_registered">Rostro registrado</string>
+    <string name="register_face_for_attendance">Registrar Rostro para Asistencia</string>
+    <string name="register_your_face">Registra tu Rostro</string>
+    <string name="face_registration_instructions">Para poder registrar tu asistencia automáticamente, necesitamos capturar tu rostro</string>
+    <string name="steps_to_follow">Pasos a seguir:</string>
+    <string name="start_camera">Iniciar Cámara</string>
+
+    <!-- Face Scanning -->
+    <string name="scan_face">Escanear rostro</string>
+    <string name="scan_student_face">Escanear Rostro del Estudiante</string>
+    <string name="scan_instructions">Apunta la cámara al rostro del estudiante para registrar su asistencia</string>
+    <string name="scan_info_message">El sistema detectará automáticamente el rostro y te permitirá seleccionar el estado de asistencia</string>
+    <string name="start_scanning">Iniciar Escaneo</string>
+
+    <!-- Attendance Status -->
+    <string name="select_attendance_status">Selecciona el Estado</string>
+    <string name="present">Presente</string>
+    <string name="late">Atraso</string>
+    <string name="absent">Falta</string>
+    <string name="confirm">Confirmar</string>
+
+    <!-- Attendance Tab -->
+    <string name="filter_by_date">Filtrar por fecha</string>
+    <string name="select_date">Seleccionar fecha</string>
+    <string name="no_attendance_records">No hay registros de asistencia</string>
+
+    <!-- People Tab -->
+
+    <string name="no_students_yet">Aún no hay estudiantes en esta clase</string>
+    <!-- General -->
+    <string name="close">Cerrar</string>
+
+    <!-- Este string se genera automáticamente por Firebase -->
+    <string name="default_web_client_id" translatable="false">899362913503-2u2dqdrlc34e77jkot6teoht6mmenobo.apps.googleusercontent.com</string>
+</resources>

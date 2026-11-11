@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary_purple</item>
+        <item name="colorPrimaryDark">@color/primary_purple_dark</item>
+        <item name="colorAccent">@color/accent_purple</item>
+        <item name="android:windowBackground">@color/background_light</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:statusBarColor">@color/background_light</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- Tema Principal de la App -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary_purple</item>
+        <item name="colorPrimaryDark">@color/primary_purple_dark</item>
+        <item name="colorAccent">@color/accent_purple</item>
+        <item name="android:windowBackground">@color/background_white</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Tema sin ActionBar para MainActivity -->
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+    </style>
+
+    <!-- Tema solo para este dialog -->
+    <style name="MaterialDialogTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#8B5394</item>
+    </style>
+    <style name="Theme.Visionica" parent="Base.Theme.Visionica" />
+
+    <style name="UCropTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#8B5394</item>
+        <item name="colorPrimaryDark">#6D3A75</item>
+        <item name="colorAccent">#8B5394</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">#6D3A75</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="NavItemShapeAppearance" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="NavItemTextAppearance" parent="@style/TextAppearance.AppCompat.Body2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+</resources>
