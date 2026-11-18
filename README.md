@@ -4,7 +4,7 @@
 
 ### Control de asistencia inteligente con reconocimiento facial
 
-[![Descargar APK](https://img.shields.io/badge/⬇_Descargar_APK-v1.0-2ea44f?style=for-the-badge&logo=android&logoColor=white)](https://github.com/sunxxls/Visionica/releases/download/v3.0/visionicav3.apk)
+[![Descargar APK](https://img.shields.io/badge/⬇_Descargar_APK-v3.0-2ea44f?style=for-the-badge&logo=android&logoColor=white)](https://github.com/sunxxls/Visionica/releases/download/v3.0/visionicav3.apk)
 [![Ver releases](https://img.shields.io/badge/📦_Ver_versiones-Releases-blue?style=for-the-badge)](https://github.com/cookys97/Visionica/releases)
 
 </div>
